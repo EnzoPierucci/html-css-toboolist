@@ -25,21 +25,33 @@ img{
     vertical-align: middle;
 }
 
- button {
-    background-color:cadetblue; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-} 
-
-main{
-    
+main,div{
+    border-radius: 7px;
     height: 700px;
     margin:0 auto;
     width: 80%;
     margin-top: 50px;
     background-color: white;
 }
+
+ button {
+    background-color:#47ADF1; 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px 50px
+} 
+
+#section{
+    margin-left: -45px;
+    background-color:lightgrey;
+}
+
+hr {
+   border:solid #f6f8f9;
+}
+
