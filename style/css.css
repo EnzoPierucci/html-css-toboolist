@@ -100,7 +100,25 @@ li.eti.vio::after{
 }
 
 li.eti.green::after{
-    content: "Q1 Goals";
-    background-color:#9C72E4;
+    content: "Recruiting";
+    background-color:#64C0A9;
+    border-radius: 15px;
+}
+
+li.eti.org::after{
+    content: "Mobile";
+    background-color:#F29E33;
+    border-radius: 15px;
+}
+
+li.eti.pink::after{
+    content: "Website";
+    background-color:#D863A1;
+    border-radius: 15px;
+}
+
+li.eti.lgr::after{
+    content: "Sales";
+    background-color:#AFC824;
     border-radius: 15px;
 }
