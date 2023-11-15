@@ -5,37 +5,28 @@
     background-color:#f6f8f9;
     font-family: 'Roboto', sans-serif;
 }
-
 .logo,b{
-    
     background-color:  white;
-    background-size: 350px;
-    height: 90px;
-
+    padding: 10px 0 10px 20px;
     font-size: 55px;
     vertical-align: middle;
-    
-    
-    
+    height: 100px;
     }
-
 img{
     background-color: white;
     height: 70px;
     vertical-align: middle;
 }
-
 main,div{
     border-radius: 7px;
     height: 700px;
-    margin:0 auto;
+    margin:30px auto 0 auto;
     width: 80%;
     margin-top: 50px;
     background-color: white;
 }
-
  button {
-    background-color:#47ADF1; 
+    background-color:#47ADF1;
     border: none;
     border-radius: 12px;
     color: white;
@@ -44,55 +35,72 @@ main,div{
     display: inline-block;
     font-size: 16px;
     margin: 25px 50px
-} 
-
+}
 #section{
     margin-left: -45px;
     background-color:lightgrey;
 }
-
 hr {
-   border:solid #f6f8f9;
+   border:solid #F6F8F9;
 }
-
-h2{
-
+ul{
+    list-style-type: none;
+    line-height: 140%;
     background-color: white;
-    margin: 15px;
-    font-size: 30px;
 }
-
-p{
-
-    background-color: white;
-    margin: 15px;
+li{
+    background-color:  white;
+}
+h3{
+    background-color:  white;
+}
+.inner-list{
+    margin-left: 1em;
     font-size: 20px;
-    vertical-align: middle
-   
+}
+ul li h3::before{
+    content: "\25BE";
+}
+li.checked::before {
+    content: "\2713";
+    font-size: 12px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-right: 10px;
+}
+li.cross::before {
+    content: "\292B";
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-right: 10px;
+}
+li.eti::after{
+    content: "";
+    padding: 6px 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 12px;
 }
 
-.tick-within-circle {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    
-    
-    text-align: center;
-    
-    
-    border: 2px solid green;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  
-  .tick-within-circle::before {
-    content: '\2713';
-    position:absolute;
-    top: -30px;
-    left: -35px;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    color: green;
-    
-  }
+li.eti.blu::after{
+    content: "Editorial";
+    background-color:#45ABEA;
+    border-radius: 15px;
+}
+
+li.eti.vio::after{
+    content: "Q1 Goals";
+    background-color:#9C72E4;
+    border-radius: 15px;
+}
+
+li.eti.green::after{
+    content: "Q1 Goals";
+    background-color:#9C72E4;
+    border-radius: 15px;
+}
